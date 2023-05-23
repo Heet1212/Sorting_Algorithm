@@ -11,7 +11,8 @@ def selection_sort(unsort_list):
             (unsort_list[i],unsort_list[min_value_index])=(unsort_list[min_value_index],unsort_list[i])
     return(unsort_list)       
 sort_list=selection_sort([13,11,17,12,23,27])
-print(sort_list)  
+print(sort_list)  # time complexity = o(N^2)
+                  #space complexity =0(1)
 
 
 
@@ -24,7 +25,9 @@ def selection(l):
 
         l[max_id],l[i]=l[i],l[max_id]
 
-    return l    
+    return l    # time complexity = o(N^2)
+                  #space complexity =0(1)
+
 
 
 
